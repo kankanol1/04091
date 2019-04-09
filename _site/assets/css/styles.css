@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*-------------------------------reset--------------------------*/
+.current {
+  color: red; }
+
+html, body {
+  padding: 0;
+  margin: 0; }
+
+nav {
+  position: fixed;
+  background: #111111;
+  width: 100%;
+  height: 50px;
+  top: 0; }
+  nav ul {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px; }
+    nav ul li {
+      list-style: none;
+      float: left;
+      padding: 0 20px;
+      height: 50px;
+      line-height: 50px; }
+      nav ul li a {
+        color: pink;
+        font-size: 16px;
+        text-decoration: none; }
+
+.bar {
+  color: pink;
+  font-size: 16px;
+  text-decoration: none; }
+
+#box {
+  padding: 50px 40px 0; }
+
+/*ul{
+  margin: 0 auto;
+  li{
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+    a {font-size:16px}
+    a:link {color: blue; text-decoration:none;} //未访问：蓝色、无下划线
+    a:active {color: red; } //激活：红色
+    a:visited {color:purple;text-decoration:none;} //已访问：紫色、无下划线
+    a:hover {color: red; text-decoration:underline;} //鼠标移近：红色、下划线
+
+  }
+}*/
+footer ul li {
+  display: inline-block;
+  height: 80px; }
+  footer ul li a {
+    display: block;
+    height: 80px;
+    padding: 0 24px; }
+    footer ul li a span {
+      height: 40px;
+      line-height: 40px;
+      display: block; }
+    footer ul li a img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: purple; }
+
+/*------------------------------------------content----------------------------------*/
